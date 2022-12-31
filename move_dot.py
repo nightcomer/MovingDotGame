@@ -22,7 +22,7 @@ def move_up():
 # move dot down
 def move_down():
     global dot_y
-    if dot_y < 295:
+    if dot_y < 500:
         dot_y += 5
         canvas.move(dot, 0, 5)
 
@@ -36,7 +36,7 @@ def move_left():
 # move dot right
 def move_right():
     global dot_x
-    if dot_x < 295:
+    if dot_x < 500:
         dot_x += 5
         canvas.move(dot, 5, 0)
 
